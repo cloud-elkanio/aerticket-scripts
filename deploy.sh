@@ -7,7 +7,7 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 AWS_REGION="ap-south-1"
 AWS_ACCOUNT_ID="722955677910"
 ECR_BASE_URL="${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com"
-K8S_DIR="/home/ubuntu/production-manifests/resources/scripts"
+K8S_DIR="/home/ubuntu/production-manifests/resources/aerticket-scripts/config"
 
 # Service configurations
 declare -A SERVICES=(
